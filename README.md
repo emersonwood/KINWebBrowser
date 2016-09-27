@@ -9,7 +9,7 @@ Powered by [WKWebView](https://developer.apple.com/library/IOs/documentation/Web
 
 Changes in Fork
 ------------------------
-* Removes the web page title substring that would cause the character to be cut off.
+* The url in the navbar title would cut off the last character; this has been fixed.
 
 Features
 ------------------------

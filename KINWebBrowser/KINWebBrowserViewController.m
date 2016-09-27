@@ -373,7 +373,7 @@ static void *KINWebBrowserContext = &KINWebBrowserContext;
             
             URLString = [URLString stringByReplacingOccurrencesOfString:@"http://" withString:@""];
             URLString = [URLString stringByReplacingOccurrencesOfString:@"https://" withString:@""];
-            URLString = [URLString substringToIndex:[URLString length]-1];
+//            URLString = [URLString substringToIndex:[URLString length]-1];
             self.navigationItem.title = URLString;
         }
     }

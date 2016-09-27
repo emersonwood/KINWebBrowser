@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author             = { "David F. Muir V" => "dfmuir@gmail.com" }
   s.platform     = :ios, '7.0'
-  s.source       = { :git => "https://github.com/dfmuir/KINWebBrowser.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/emersonwood/KINWebBrowser.git", :tag => s.version.to_s }
   s.source_files  = 'KINWebBrowser', 'KINWebBrowser/**/*.{h,m}'
   s.resources = "Assets/*.png"
   s.requires_arc = true

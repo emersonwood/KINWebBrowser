@@ -7,6 +7,10 @@ Powered by [WKWebView](https://developer.apple.com/library/IOs/documentation/Web
 
 ![KINWebBrowser Screenshots](http://i.imgur.com/z1jkWKG.png)
 
+Changes in Fork
+------------------------
+* Removes the web page title substring that would cause the character to be cut off.
+
 Features
 ------------------------
 * iOS 7 & 8 support for iPhone and iPad devices
